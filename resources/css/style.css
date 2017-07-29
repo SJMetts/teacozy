@@ -1,109 +1,117 @@
 body{
-	font-family:Helvetica;
-	background-color:teal;
-	color:seashell;
-	font-size:22px;
-	opacity:0.9;
-	text-align:center;
-	display:block;
+  background-color:black;
+  color:seashell;
+  display:flex;
+  flex-direction:column;
+ /*  justify-content:center; */
+  text-align:center;
+  font-family:Helvetica;
+  font-size:22px;
+  opacity:0.9;
 }
 
 header{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
-	align-items:center;
-	position:fixed;
-	border-bottom:1px solid seashell;
-	height:69px;
-	width:100%;
-	background-color:black;
-	z-index:2;
+  border-bottom: 1px solid seashell;
+  height:69px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position:fixed;
+  z-index:5;
+  width:100%;
+  background-color:black;
 }
-
 .logo{
-	margin-left:10px;
-	height:50px;
+  display:flex;
+  align-content:center;
+  height:50px;
+  margin-left:10px;
 }
-
 .topnav{
-	display:flex;
-	align-content:center;
-	
+  display:flex;
+  align-items:center;
 }
-
-.topnav span a{
-	display:flex;
-	margin-right:25px;
-	color:seashell;
+.topnav a{
+  color:seashell;
+  margin-right:25px;
 }
-
 
 #mission{
-	display:flex;
-	justify-content:center;
-	align-content:space-between;
-	flex-direction:column;
-	width:1200px;
-	height:700px;
-}
-.mission-background{
-	/*display:flex;*/
-	z-index:-1;
-	position:absolute;
-
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  position:relative;
+  margin:100px auto 50px auto;
+  width:1200px;
+  height:700px;
 }
 
 #mission span{
-	background-color:black;
+  display:flex;
+  flex-direction:column;
+  position:absolute;
+  width:100%;
+ 
+  justify-content:center;
+  background-color:black;
+}
+.mission-background{
+  display:flex;
+  justify-content:center;
+  z-index:-1;
+}
+
+#featuredtea{
+  display:flex;
+  flex-direction:column;
+  margin:75px auto 50px auto;
+  width:1000px;
+ 
+}
+
+.products{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.product-highlight{
+  margin-right:20px;
+}
+.product-highlight img{
+  height:200px;
+  width:300px;
 }
 
 #locations{
-	display:flex;
-	flex-direction:row;
-	background-color:black;
-	/*position:relative;*/
-	height:500px;
-	width:1200px;
+  display:flex;
+  flex-direction:column;
+  width:1200px;
+  height:500px;
+  /* position:relative; */
+  margin: 25px auto 15px auto;
 }
+
+.store-locations{
+ display:flex;
+ flex-direction:row;
+ justify-content:center;
+   align-content:center;
+  flex-wrap:wrap;
+}
+
+.location{
+  display:flex;
+  flex-direction:column;
+  background-color:black;
+  width:300px;
+}
+
 .locations-background{
-	z-index:-1;
-	position:absolute;
+  z-index:-2;
 }
 
 
-.downtown{
-	display:flex;
-	flex-direction:column;
-	background-color:black;
-	width:300px;
-	height:300px;
-	margin-right:40px;
-}
-.bayside{
-	display:flex;
-	flex-direction:column;
-	background-color:black;
-	width:300px;
-	height:300px;
-	margin-right:40px;
-}
-.oakdale{
-	display:flex;
-	flex-direction:column;
-	background-color:black;
-	width:300px;
-	height:300px;
-	margin-right:40px;
-}
 
-footer{
-	height:200px;
-	width:100%;
-	text-align:center;
-	background-color:black;
-}
 
-footer h2{
-
-}
