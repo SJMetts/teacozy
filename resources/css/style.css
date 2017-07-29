@@ -1,0 +1,109 @@
+body{
+	font-family:Helvetica;
+	background-color:teal;
+	color:seashell;
+	font-size:22px;
+	opacity:0.9;
+	text-align:center;
+	display:block;
+}
+
+header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	position:fixed;
+	border-bottom:1px solid seashell;
+	height:69px;
+	width:100%;
+	background-color:black;
+	z-index:2;
+}
+
+.logo{
+	margin-left:10px;
+	height:50px;
+}
+
+.topnav{
+	display:flex;
+	align-content:center;
+	
+}
+
+.topnav span a{
+	display:flex;
+	margin-right:25px;
+	color:seashell;
+}
+
+
+#mission{
+	display:flex;
+	justify-content:center;
+	align-content:space-between;
+	flex-direction:column;
+	width:1200px;
+	height:700px;
+}
+.mission-background{
+	/*display:flex;*/
+	z-index:-1;
+	position:absolute;
+
+}
+
+#mission span{
+	background-color:black;
+}
+
+#locations{
+	display:flex;
+	flex-direction:row;
+	background-color:black;
+	/*position:relative;*/
+	height:500px;
+	width:1200px;
+}
+.locations-background{
+	z-index:-1;
+	position:absolute;
+}
+
+
+.downtown{
+	display:flex;
+	flex-direction:column;
+	background-color:black;
+	width:300px;
+	height:300px;
+	margin-right:40px;
+}
+.bayside{
+	display:flex;
+	flex-direction:column;
+	background-color:black;
+	width:300px;
+	height:300px;
+	margin-right:40px;
+}
+.oakdale{
+	display:flex;
+	flex-direction:column;
+	background-color:black;
+	width:300px;
+	height:300px;
+	margin-right:40px;
+}
+
+footer{
+	height:200px;
+	width:100%;
+	text-align:center;
+	background-color:black;
+}
+
+footer h2{
+
+}
