@@ -8,6 +8,7 @@ body{
   font-family:Helvetica;
   font-size:22px;
   opacity:0.9;
+  margin:0;
 }
 
 header{
@@ -89,16 +90,19 @@ header{
   flex-direction:column;
   width:1200px;
   height:500px;
-  /* position:relative; */
-  margin: 25px auto 15px auto;
+  margin: 50px auto 15px auto;
+  position:relative;
+  align-items:center;
+ 
+  justify-content:center;
+  
 }
 
 .store-locations{
  display:flex;
- flex-direction:row;
- justify-content:center;
-   align-content:center;
-  flex-wrap:wrap;
+   flex-direction:row;
+  position:absolute;
+  align-content:center;
 }
 
 .location{
@@ -106,12 +110,32 @@ header{
   flex-direction:column;
   background-color:black;
   width:300px;
+  position:relative;
+  margin-right:20px;
+  
 }
 
 .locations-background{
-  z-index:-2;
+  z-index:-1;
+  display:flex;
+  justify-content:center;
+  
 }
 
+#location h2{
+  display:flex;
+
+}
+
+footer{
+  height:200px;
+  width:100%;
+  background-color:black;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  
+}
 
 
 
