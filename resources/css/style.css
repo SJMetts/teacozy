@@ -16,14 +16,13 @@ header{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
+  align-items:center;
   position:fixed;
   z-index:5;
   width:100%;
   background-color:black;
 }
 .logo{
-  display:flex;
-  align-content:center;
   height:50px;
   margin-left:10px;
 }
@@ -41,30 +40,26 @@ header{
   flex-direction:column;
   justify-content:center;
   position:relative;
-  margin:100px auto 50px auto;
+  margin:100px auto;
   width:1200px;
   height:700px;
 }
 
 #mission span{
-  display:flex;
-  flex-direction:column;
+  display:block;
   position:absolute;
   width:100%;
- 
-  justify-content:center;
   background-color:black;
 }
 .mission-background{
-  display:flex;
+  /*display:flex;*/
   justify-content:center;
   z-index:-1;
 }
 
 #featuredtea{
-  display:flex;
-  flex-direction:column;
-  margin:75px auto 50px auto;
+  display:block;
+  margin:auto;
   width:1000px;
  
 }
@@ -89,7 +84,7 @@ header{
   flex-direction:column;
   width:1200px;
   height:500px;
-  margin: 50px auto 15px auto;
+  margin: auto;
   position:relative;
   align-items:center;
   padding-top:70px;
@@ -101,7 +96,6 @@ header{
 .store-locations{
  	display: inline-flex;
  	flex-direction:row;
- 	/* position:absolute; */
  	align-content:center;
  	margin: auto;
 }
@@ -119,7 +113,6 @@ header{
 .locations-background{
   z-index:-1;
   display:flex;
-  /* margin:70px 0 25px 0; */
   justify-content:center;
   position:absolute;
 }
