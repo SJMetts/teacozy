@@ -3,7 +3,6 @@ body{
   color:seashell;
   display:flex;
   flex-direction:column;
- /*  justify-content:center; */
   text-align:center;
   font-family:Helvetica;
   font-size:22px;
@@ -86,23 +85,25 @@ header{
 }
 
 #locations{
-  display:flex;
+  display: block;
   flex-direction:column;
   width:1200px;
   height:500px;
   margin: 50px auto 15px auto;
   position:relative;
   align-items:center;
- 
+  padding-top:70px;
   justify-content:center;
-  
+  text-align: center;
+  overflow:hidden;
 }
 
 .store-locations{
- display:flex;
-   flex-direction:row;
-  position:absolute;
-  align-content:center;
+ 	display: inline-flex;
+ 	flex-direction:row;
+ 	/* position:absolute; */
+ 	align-content:center;
+ 	margin: auto;
 }
 
 .location{
@@ -118,14 +119,11 @@ header{
 .locations-background{
   z-index:-1;
   display:flex;
+  /* margin:70px 0 25px 0; */
   justify-content:center;
-  
+  position:absolute;
 }
 
-#location h2{
-  display:flex;
-
-}
 
 footer{
   height:200px;
@@ -134,8 +132,11 @@ footer{
   position:relative;
   display:flex;
   flex-direction:column;
-  
+  padding: 0 20px;
 }
 
+footer p{
+	text-align:left;
+}
 
 
