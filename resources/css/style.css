@@ -97,7 +97,6 @@ header{
 	height:500px;
 	margin: auto;
 	position:relative;
-	align-items:center;
 	padding-top:70px;
 	justify-content:center;
 	text-align: center;
@@ -118,13 +117,11 @@ header{
 	width:300px;
 	position:relative;
 	margin-right:20px;
-  
 }
 
 .locations-background{
 	z-index:-1;
 	display:flex;
-	justify-content:center;
 	position:absolute;
 }
 
