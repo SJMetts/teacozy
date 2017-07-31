@@ -47,9 +47,10 @@ header{
 	flex-direction:column;
 	justify-content:center;
 	position:relative;
-	margin:100px auto;
+	margin:100px auto 20px auto;
 	width:1200px;
 	height:700px;
+	background-image:url(../images/img-mission-background.jpg);
 }
 
 #mission span{
@@ -59,16 +60,11 @@ header{
 	background-color:black;
 }
 
-.mission-background{
-	justify-content:center;
-	z-index:-1;
-}
-
 /*Styling for the Featured Tea section*/
 
 #featuredtea{
 	display:block;
-	margin:auto;
+	margin: 20px auto;
 	width:1000px;
 }
 
@@ -88,6 +84,10 @@ header{
 	width:300px;
 }
 
+.product-highlight h4{
+	margin-top:10px;
+}
+
 /*Styling for the Locations section*/
 
 #locations{
@@ -101,6 +101,11 @@ header{
 	justify-content:center;
 	text-align: center;
 	overflow:hidden;
+	background-image:url(../images/img-locations-background.jpg);
+}
+
+#locations h2{
+	margin-bottom:15px;
 }
 
 .store-locations{
@@ -116,13 +121,7 @@ header{
 	background-color:black;
 	width:300px;
 	position:relative;
-	margin-right:20px;
-}
-
-.locations-background{
-	z-index:-1;
-	display:flex;
-	position:absolute;
+	margin-right: 40px;
 }
 
 /*Styling for the Footer*/
